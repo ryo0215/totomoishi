@@ -346,7 +346,7 @@ header {
   }
   
   .wide-work {
-    width: 98.7vw; /* ビューポート全幅 */
+    width: 100vw; /* ビューポート全幅 */
     margin-left: -6rem; /* .content の margin を打ち消す */
     display: block;
     margin-top: 3rem;
@@ -363,7 +363,7 @@ header {
   }
 
   @media (max-width: 600px){
-    .The-Fading-Garden {
+    .wide-work {
       margin-left: -2rem;
     }
   }
