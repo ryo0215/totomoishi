@@ -477,6 +477,8 @@ header {
 
 .profile-text {
   flex: 7;
+  font-size: 0.9rem;
+  line-height: 1.7;
 }
 .profile-text h3 {
   font-size: 1.5rem;
@@ -504,7 +506,12 @@ rt {
       flex-direction: column;
       text-align: left;
   }
-
+   .profile-text{
+    font-size: 0.7rem;
+  }
+  .profile-text p {
+   line-height: 1.5;
+  }
   .profile-photo {
       max-width: 18rem;
   }
